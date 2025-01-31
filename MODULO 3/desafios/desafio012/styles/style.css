@@ -24,7 +24,7 @@ header {
     h1 {
         padding-top: 50px;
         font-variant: small-caps;
-        font-size: 76px;
+        font-size: 10vw;
         font-family: var(--fonte1);
         font-weight: 700;
     }
@@ -32,7 +32,6 @@ header {
         text-decoration: underline;
     }
     p {
-        font-size: 16px;
         font-family: var(--fonte3);
         font-weight: bold;
         padding-bottom: 50px;
@@ -54,7 +53,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-
+    font-size: 3.5vw;
 }
 
 .normal {
@@ -68,7 +67,8 @@ section {
     background-color: rgb(51, 51, 51);
     color: white;
     p {
-        width: 350px;
+        display: inline-block;
+        padding: 5px;
         background-color: rgba(0, 0, 0, 0.253);
     }
 }
